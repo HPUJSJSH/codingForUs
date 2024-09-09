@@ -1,0 +1,20 @@
+{
+  "sql": {
+    "ip": "",
+    "user": "",
+    "password": "",
+    "table": "",
+    "database": ""
+  },
+  "camera": {
+    "height": 240,
+    "width": 320,
+    "ID": "/dev/video0"
+  },
+  "model": {
+    "path": "./model/yolov8n_ncnn_model",
+    "thord": 0.7,
+    "half": 0,
+    "imgsz": [320,320]
+  }
+}

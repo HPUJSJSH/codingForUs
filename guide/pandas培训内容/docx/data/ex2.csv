@@ -1,0 +1,6 @@
+name,height,weight,sex,stay
+a,161,54,Female,True
+b,180,87,Male,False
+c,159,49,Female,Yes
+d,178,73,Male,No
+e,167,67,Male,No

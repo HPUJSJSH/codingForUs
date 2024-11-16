@@ -4,7 +4,7 @@ CMake 是一个项目构建工具，并且是跨平台的。关于项目构建�
 
 而 CMake 恰好能解决上述问题， 其允许开发者指定整个工程的编译流程，在根据编译平台，`自动生成本地化的Makefile和工程文件`，最后用户只需`make`编译即可，所以可以把CMake看成一款自动生成 Makefile的工具，其编译流程如下图：
 
-![](F:\CMake\anzhiyu.png)
+![](.\images\anzhiyu.png)
 
 -   蓝色虚线表示使用`makefile`构建项目的过程
 -   红色实线表示使用`cmake`构建项目的过程
@@ -241,7 +241,7 @@ cmake_minimum_required(VERSION 3.0.0)
 
 这样就可以在`build`目录中执行`make`命令编译项目，生成的相关文件自然也就被存储到`build`目录中了。这样通过`cmake`和`make`生成的所有文件就全部和项目源文件隔离开了，各回各家，各找各妈。
 
-## 2.2 
+## 2.2  指定变量
 
 ### 2.2.1 定义变量
 
@@ -846,3 +846,63 @@ message(STATUS "message: ${SRC_1}")
 | LIBRARY\_OUTPUT\_PATH | 重新定义目标链接库文件的存放位置 |
 | PROJECT\_NAME | 返回通过PROJECT指令定义的项目名称 |
 | CMAKE\_BINARY\_DIR | 项目实际构建路径，假设在`build`目录进行的构建，那么得到的就是这个目录的路径 |
+
+***
+
+# vscode + cmake 配置
+
+## 下载vscode
+
+[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download)
+
+在其中选择适合自己版本进行下载
+
+## cmake 插件安装
+
+在插件商店中安装 cmake 以及cmake tools
+
+![](./images/cmake_cmakeTools.png)
+
+## 自己配置 mingw32 
+
+安装教程
+
+[MinGW下载安装教程 傻瓜式操作【超详细】_mingw-get-setup.exe-CSDN博客](https://blog.csdn.net/qq_38196449/article/details/136125995)
+
+于cmake tools 里面进行配置
+
+![](./images/configMinGW.png)
+
+## 配置调试工具
+
+在settings.json中进行配置
+
+```json
+"cmake.debugConfig": {
+        "externalConsole": true,
+    }
+```
+
+![](./images/debugConfig.png)
+
+## 启动与调试
+
+![](./images/start.png)
+
+* 爬虫符号为debug
+* 三角形为启动
+
+***
+
+# ***具体模板可以参考 本目录下的 template 文件夹***
+
+
+
+
+
+ 
+
+
+
+
+

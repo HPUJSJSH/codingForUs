@@ -4,7 +4,7 @@
 
 ## 方法一、浏览器搜索“HydroOJ”后进入其网站
 
-![](image\网页.png)
+![](image/网页.png)
 
 
 
@@ -12,7 +12,7 @@
 
 ## 方法二、直接进入网址“[HdroOJ](https://hydro.ac/)”进入网站首页
 
-![](image\主页.png)
+![](image/主页.png)
 
 
 
@@ -24,7 +24,7 @@
 
 
 
-![](image\完成注册.png)
+![](image/完成注册.png)
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-![](image\注册账户.png)
+![](image/注册账户.png)
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-![](image\邮箱注册.png)
+![](image/邮箱注册.png)
 
 
 
@@ -48,7 +48,7 @@
 
 
 
-![](image\输入用户名和密码.png)
+![](image/输入用户名和密码.png)
 
 
 
@@ -60,7 +60,7 @@
 
 
 
-![](image\注册成功.png)
+![](image/注册成功.png)
 
 
 
@@ -78,7 +78,7 @@
 
 
 
-![](image\1.png)
+![](image/1.png)
 
 
 
@@ -90,4 +90,4 @@
 
 
 
-![](image\2.png)
+![](image/2.png)
